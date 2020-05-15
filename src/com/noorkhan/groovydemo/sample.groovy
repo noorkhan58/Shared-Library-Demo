@@ -1,8 +1,21 @@
+
 package com.noorkhan.groovydemo
 
  class sample {
 	
-	String test() {
-		return "Hello World Noor Khan"
+	void test() {
+		pipeline {
+			agent any
+				stages {
+					stage('Git Checkout') {
+						steps {
+							gitCheckout(
+								branches: "master", 
+								userRemoteConfigs: "https://github.com/spring-projects/spring-petclinic.git"
+							)
+						}
+					}
+				}
+			}
 	}
 }
