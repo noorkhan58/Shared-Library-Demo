@@ -1,5 +1,5 @@
 package com.noorkhan.groovydemo
-
+import com.noorkhan.groovydemo.gitCheckout
 def call() {
 	pipeline {
 			agent any
