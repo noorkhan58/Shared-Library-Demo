@@ -1,9 +1,9 @@
 
 package com.noorkhan.groovydemo
-import com.noorkhan.groovydemo.pipeline
+import com.noorkhan.groovydemo.pipelinetest
  class sample {
 	
 	void test() {
-		pipeline()
+		pipelinetest()
 	}
 }

@@ -7,7 +7,7 @@ def call() {
 					stage('Git Checkout') {
 						steps {
 							gitCheckout(
-								branche: "master", 
+								branch: "master", 
 								url: "https://github.com/spring-projects/spring-petclinic.git"
 							)
 						}
