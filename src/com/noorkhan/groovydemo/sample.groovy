@@ -1,8 +1,8 @@
 package com.noorkhan.groovydemo
 
-class sample {
+ class sample {
 	
-	def void test() {
-		echo 'Hello World'
+	static String test() {
+		return "Hello World"
 	}
 }
