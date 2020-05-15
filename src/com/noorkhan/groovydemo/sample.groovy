@@ -2,7 +2,7 @@ package com.noorkhan.groovydemo
 
  class sample {
 	
-	static String test() {
-		return "Hello World"
+	String test() {
+		return "Hello World Noor Khan"
 	}
 }
