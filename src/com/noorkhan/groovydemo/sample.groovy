@@ -4,6 +4,6 @@ import com.noorkhan.groovydemo.pipelinetest
  class sample {
 	
 	void test() {
-		pipelinetest()
+		pipelinetest
 	}
 }
