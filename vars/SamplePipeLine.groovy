@@ -8,10 +8,10 @@ def call() {
 						steps {
 							echo 'Hello World'
 							checkout([
-					$class: 'GitSCM', 
-					branches: [[name: "master"]], 
-					userRemoteConfigs: [[url: "https://github.com/spring-projects/spring-petclinic.git"]
-				])
+								$class: 'GitSCM', 
+								branches: [[name: "master"]], 
+								userRemoteConfigs: [[url: "https://github.com/spring-projects/spring-petclinic.git"]]
+								])
 						}
 					}
 				}
