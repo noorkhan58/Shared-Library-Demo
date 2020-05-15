@@ -7,11 +7,10 @@ def call() {
 					stage('Git Checkout') {
 						steps {
 							echo 'Hello World'
-							checkout([
-								$class: 'GitSCM', 
-								branches: [[name: "master"]], 
-								userRemoteConfigs: [[url: "https://github.com/spring-projects/spring-petclinic.git"]]
-								])
+							gitCheckout(
+								branch: "master", 
+								url: "https://github.com/spring-projects/spring-petclinic.git"
+							)
 						}
 					}
 				}
