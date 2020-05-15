@@ -3,7 +3,7 @@ package com.noorkhan.groovydemo
 import com.noorkhan.groovydemo.gitCheckout
  class sample {
 	
-	void test() {
+	def test() {
 		pipeline {
 			agent any
 				stages {
