@@ -2,7 +2,7 @@ package com.noorkhan.groovydemo
 
 class sample {
 	
-	def static void test() {
+	def void test() {
 		echo "Hello World"
 	}
 }
