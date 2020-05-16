@@ -13,6 +13,12 @@ def call() {
 							)
 						}
 					}
+					stage('Build') {
+						steps {
+							echo 'Building'
+							mvn clean install
+						}
+					}
 				}
 			}
 	
