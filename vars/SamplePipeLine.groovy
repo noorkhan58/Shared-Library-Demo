@@ -16,7 +16,7 @@ def call() {
 					stage('Build') {
 						steps {
 							echo 'Building'
-							mvn clean install
+							sh 'mvn -Dmaven.test.failure.ignore=true install'
 						}
 					}
 				}
